@@ -1,0 +1,86 @@
+<View
+  name="TakQuickstartIos2"
+  path="quickstart/ios2"
+>
+  <div class="pb-20">
+    <Layout
+      showNavbar="true"
+      showFooter="false"
+      navbarTitle="TakQuickstartIos2.navbarTitle"
+      backUrl="/app/services/tak/quickstart"
+    >
+      <StatusBar
+        title="TakQuickstartIos2.statusBarTitle"
+        progressMax="5"
+        progressNow="2"
+      ></StatusBar>
+      <CardsContainer>
+        <div class="flex flex-col items-center w-full gap-2 justify-center p-5">
+          <ServiceInfoCard
+            title="iTAK"
+            image="../../../../../../assets/icons/iTAK.png"
+            details="TakQuickstartIos2.serviceInfoCard.details"
+          ></ServiceInfoCard>
+          <UnfoldableCard
+            title="TakQuickstartIos2.unfoldableCard1.title"
+            class="bg-backgroundLight"
+          >
+            <Description>TakQuickstartIos2.unfoldableCard1.description1</Description>
+            <Image
+              class="mx-auto pr-5 w-[240px] p-4"
+              src="../../../../../../assets/takguides/itak/itakquickstart1.png"
+            ></Image>
+          </UnfoldableCard>
+          <UnfoldableCard
+            title="TakQuickstartIos2.unfoldableCard2.title"
+            class="bg-backgroundLight"
+          >
+            <Description>TakQuickstartIos2.unfoldableCard2.description1</Description>
+            <Image
+              class="mx-auto pr-5 w-[240px] p-4"
+              src="../../../../../../assets/takguides/itak/itakquickstart2.png"
+            ></Image>
+            <Description>TakQuickstartIos2.unfoldableCard2.description2</Description>
+          </UnfoldableCard>
+          <UnfoldableCard
+            title="TakQuickstartIos2.unfoldableCard3.title"
+            class="bg-backgroundLight"
+          >
+            <Description>TakQuickstartIos2.unfoldableCard3.description1</Description>
+            <Image
+              class="mx-auto pr-5 w-[240px] p-4"
+              src="../../../../../../assets/takguides/itak/itakquickstart3.png"
+            ></Image>
+            <Description>TakQuickstartIos2.unfoldableCard3.description2</Description>
+          </UnfoldableCard>
+          <UnfoldableCard
+            title="TakQuickstartIos2.unfoldableCard4.title"
+            class="bg-backgroundLight"
+          >
+            <Description>TakQuickstartIos2.unfoldableCard4.description1</Description>
+            <Image
+              class="mx-auto pr-5 w-[240px] p-4"
+              src="../../../../../../assets/takguides/itak/itakquickstart4.png"
+            ></Image>
+            <Description>TakQuickstartIos2.unfoldableCard4.description2</Description>
+            <Image
+              class="mx-auto pr-5 w-[240px] p-4"
+              src="../../../../../../assets/takguides/itak/itakquickstart5.png"
+            ></Image>
+            <Description>TakQuickstartIos2.unfoldableCard4.description3</Description>
+            <Image
+              class="mx-auto pr-5 w-[240px] p-4"
+              src="../../../../../../assets/takguides/itak/itakquickstart7.png"
+            ></Image>
+            <Description>TakQuickstartIos2.unfoldableCard4.description4</Description>
+          </UnfoldableCard>
+        </div>
+      </CardsContainer>
+
+      <NavigateButtons
+        backUrl="/app/services/tak/quickstart/ios1"
+        forwardUrl="/app/services/tak/quickstart/ios3"
+      ></NavigateButtons>
+    </Layout>
+  </div>
+</View>

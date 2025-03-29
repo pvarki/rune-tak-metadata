@@ -1,0 +1,70 @@
+<View
+  name="TakQuickstartWin4"
+  path="quickstart/win4"
+>
+  <div class="pb-20">
+    <Layout
+      showNavbar="true"
+      showFooter="false"
+      navbarTitle="TakQuickstartWin4.navbarTitle"
+      backUrl="/app/services/tak/quickstart"
+    >
+      <StatusBar
+        title="TakQuickstartWin4.statusBarTitle"
+        progressMax="4"
+        progressNow="4"
+      ></StatusBar>
+      <CardsContainer>
+        <div class="flex flex-col items-center w-full gap-2 justify-center p-5">
+          <ServiceInfoCard
+            title="WinTAK"
+            image="../../../../../../assets/icons/wintak.png"
+            details="TakQuickstartWin4.serviceInfoCard.details"
+          ></ServiceInfoCard>
+          <UnfoldableCard
+            title="TakQuickstartWin4.unfoldableCard1.title"
+            class="bg-backgroundLight"
+          >
+            <Description>TakQuickstartWin4.unfoldableCard1.description1</Description>
+            <Image
+              class="mx-auto pr-12 w-[200px] p-4"
+              src="../../../../../../assets/takguides/wintak/Kuva28.png"
+            ></Image>
+            <Description>TakQuickstartWin4.unfoldableCard1.description2</Description>
+            <Image
+              class="mx-auto pr-5 w-[300px] p-4"
+              src="../../../../../../assets/takguides/wintak/Kuva29.png"
+            ></Image>
+            <Description>TakQuickstartWin4.unfoldableCard1.description3</Description>
+            <Image
+              class="mx-auto pr-5 w-[300px] p-4"
+              src="../../../../../../assets/takguides/wintak/Kuva29.png"
+            ></Image>
+            <Description>TakQuickstartWin4.unfoldableCard1.description4</Description>
+            <Image
+              class="mx-auto pr-5 w-[300px] p-4"
+              src="../../../../../../assets/takguides/wintak/Kuva30.png"
+            ></Image>
+            <Description>TakQuickstartWin4.unfoldableCard1.description5</Description>
+            <Image
+              class="mx-auto pr-5 w-[300px] p-4"
+              src="../../../../../../assets/takguides/wintak/Kuva31.png"
+            ></Image>
+            <Description>TakQuickstartWin4.unfoldableCard1.description6</Description>
+          </UnfoldableCard>
+          <UnfoldableCard
+            title="TakQuickstartWin4.unfoldableCard2.title"
+            class="bg-backgroundLight"
+          >
+            <Description>TakQuickstartWin4.unfoldableCard2.description1</Description>
+          </UnfoldableCard>
+        </div>
+      </CardsContainer>
+      <NavigateButtons
+        backUrl="/app/services/tak/quickstart/win3"
+        forwardUrl="/app/services/tak/quickstart"
+        alterForward="TakQuickstartWin4.alterForward"
+      ></NavigateButtons>
+    </Layout>
+  </div>
+</View>

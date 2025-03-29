@@ -1,0 +1,58 @@
+<View
+  name="TakQuickstartIos1"
+  path="quickstart/ios1"
+>
+  <div class="pb-20">
+    <Layout
+      showNavbar="true"
+      showFooter="false"
+      navbarTitle="TakQuickstartIos1.navbarTitle"
+      backUrl="/app/services/tak/quickstart"
+    >
+      <StatusBar
+        title="TakQuickstartIos1.statusBarTitle"
+        progressMax="5"
+        progressNow="1"
+      ></StatusBar>
+      <CardsContainer>
+        <div class="flex flex-col items-center w-full gap-2 justify-center p-5">
+          <ServiceInfoCard
+            title="iTAK"
+            image="../../../../../../assets/icons/iTAK.png"
+            details="TakQuickstartIos1.serviceInfoCard.details"
+          ></ServiceInfoCard>
+          <UnfoldableCard
+            title="TakQuickstartIos1.unfoldableCard1.title"
+            class="bg-backgroundLight"
+          >
+            <Description>TakQuickstartIos1.unfoldableCard1.description1</Description>
+            <a href="https://apps.apple.com/us/app/itak/id1561656396">
+              <Image
+                class="w-[200px]"
+                src="../../../../../../assets/icons/appstore.svg"
+              ></Image>
+            </a>
+          </UnfoldableCard>
+          <UnfoldableCard
+            title="TakQuickstartIos1.unfoldableCard2.title"
+            class="bg-backgroundLight"
+          >
+            <Description>TakQuickstartIos1.unfoldableCard2.description1</Description>
+            <Description>
+              <Button
+                variant='{"width":"full"}'
+                onClick="downloadZip"
+                class="m-1 px-3 bg-success text-white w-full"
+              >serviceTak.grabZipButton
+              </Button>
+            </Description>
+            <Note>TakQuickstartIos1.unfoldableCard2.note</Note>
+          </UnfoldableCard>
+        </div>
+      </CardsContainer>
+      <NavigateButtons
+        backUrl="/app/services/tak/quickstart"
+        forwardUrl="/app/services/tak/quickstart/ios2"
+      ></NavigateButtons>
+    </Layout>
+  </div>

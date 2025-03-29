@@ -1,0 +1,62 @@
+<View
+  name="TakUsageWin4"
+  path="usage/win4"
+>
+  <div class="pb-32">
+    <Layout
+      showNavbar="true"
+      showFooter="false"
+      navbarTitle="takUsageWin3.navbarTitle"
+      backUrl="/app/services/tak/usage"
+    >
+      <StatusBar
+        title="takUsageWin3.navbarTitle"
+        progressMax="4"
+        progressNow="4"
+      ></StatusBar>
+      <CardsContainer>
+        <div class="flex flex-col items-center w-full gap-2 justify-center p-5">
+          <ServiceInfoCard
+            title="takUsageWin4.serviceInfoCard.title"
+            image="../../../../../../assets/icons/wintak.png"
+            details="takUsageWin4.serviceInfoCard.details"
+          >
+            <ServiceTakUsageCard></ServiceTakUsageCard>
+          </ServiceInfoCard>
+          <UnfoldableCard
+            title="takUsageWin4.unfoldableCard1.title"
+            class="bg-backgroundLight"
+          >
+            <Description>takUsageWin4.unfoldableCard1.step1</Description>
+            <Image
+              class="m-3 w-[200px]"
+              src="../../../../../../assets/takguides/wintak/Kuva61.png"
+            ></Image>
+
+            <Description>takUsageWin4.unfoldableCard1.step2</Description>
+            <Image
+              class="m-3 w-[400px]"
+              src="../../../../../../assets/takguides/wintak/Kuva62.png"
+            ></Image>
+
+            <Description>takUsageWin4.unfoldableCard1.step3</Description>
+            <Image
+              class="m-3 w-[400px]"
+              src="../../../../../../assets/takguides/wintak/Kuva63.png"
+            ></Image>
+
+            <Description>takUsageWin4.unfoldableCard1.step4</Description>
+            <Description>takUsageWin4.unfoldableCard1.step5</Description>
+            <Description>takUsageWin4.unfoldableCard1.step6</Description>
+            <Description>takUsageWin4.unfoldableCard1.step7</Description>
+          </UnfoldableCard>
+        </div>
+      </CardsContainer>
+      <NavigateButtons
+        backUrl="/app/services/tak/usage/win3"
+        forwardUrl="/app/services/tak/usage"
+        alterForward="TakUsageAndroid3.alterForward"
+      ></NavigateButtons>
+    </Layout>
+  </div>
+</View>

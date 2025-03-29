@@ -1,0 +1,103 @@
+<View
+  name="TakUsageAndroid2"
+  path="usage/android2"
+>
+  <div class="pb-20">
+    <Layout
+      showNavbar="true"
+      showFooter="false"
+      navbarTitle="TakUsageAndroid2.navbarTitle"
+      backUrl="/app/services/tak/Usage"
+    >
+      <StatusBar
+        title="TakUsageAndroid2.statusBarTitle"
+        progressMax="3"
+        progressNow="2"
+      ></StatusBar>
+      <CardsContainer>
+        <ServiceTakUsageCard></ServiceTakUsageCard>
+      </CardsContainer>
+      <CardsContainer>
+        <div class="flex flex-col items-center w-full gap-2 justify-center p-5">
+          <ServiceInfoCard
+            title="ATAK"
+            image="../../../../../../assets/icons/tak-logo.png"
+            details="TakUsageAndroid2.serviceInfoCard.details"
+          ></ServiceInfoCard>
+          <UnfoldableCard
+            title="TakUsageAndroid2.unfoldableCard1.title"
+            class="bg-backgroundLight"
+          >
+            <Description>TakUsageAndroid2.unfoldableCard1.step1</Description>
+            <Image
+              class="m-3 w-[300px]"
+              src="../../../../../../assets/takguides/atak/atakusage1.png"
+            ></Image>
+          </UnfoldableCard>
+          <UnfoldableCard
+            title="TakUsageAndroid2.unfoldableCard2.title"
+            class="bg-backgroundLight"
+          >
+            <Description>TakUsageAndroid2.unfoldableCard2.step1</Description>
+            <Image
+              class="m-3 w-[500px]"
+              src="../../../../../../assets/takguides/atak/atakusage1.png"
+            ></Image>
+            <Description>TakUsageAndroid2.unfoldableCard2.step2</Description>
+            <Image
+              class="m-3 w-[500px]"
+              src="../../../../../../assets/takguides/atak/atakusage3.png"
+            ></Image>
+            <Description>TakUsageAndroid2.unfoldableCard2.step3</Description>
+            <Image
+              class="m-3 w-[500px]"
+              src="../../../../../../assets/takguides/atak/atakusage3-1.png"
+            ></Image>
+
+          </UnfoldableCard>
+          <UnfoldableCard
+            title="TakUsageAndroid2.unfoldableCard3.title"
+            class="bg-backgroundLight"
+          >
+            <Description>TakUsageAndroid2.unfoldableCard3.step1</Description>
+            <Image
+              class="m-3 w-[500px]"
+              src="../../../../../../assets/takguides/atak/atakusage4.png"
+            ></Image>
+            <Description>TakUsageAndroid2.unfoldableCard3.step2</Description>
+            <Image
+              class="m-3 w-[500px]"
+              src="../../../../../../assets/takguides/atak/atakusage5.png"
+            ></Image>
+            <Description>TakUsageAndroid2.unfoldableCard3.step3</Description>
+            <Image
+              class="m-3 w-[500px]"
+              src="../../../../../../assets/takguides/atak/atakusage6.png"
+            ></Image>
+            <Description>TakUsageAndroid2.unfoldableCard3.step4</Description>
+            <Image
+              class="m-3 w-[500px]"
+              src="../../../../../../assets/takguides/atak/atakusage7.png"
+            ></Image>
+            <Description>TakUsageAndroid2.unfoldableCard3.step5</Description>
+            <Image
+              class="m-3 w-[500px]"
+              src="../../../../../../assets/takguides/atak/atakusage8.png"
+            ></Image>
+            <Description>TakUsageAndroid2.unfoldableCard3.step6</Description>
+            <Image
+              class="m-3 w-[500px]"
+              src="../../../../../../assets/takguides/atak/atakusage9.png"
+            ></Image>
+            <Description>TakUsageAndroid2.unfoldableCard3.step7</Description>
+            <Note>TakUsageAndroid2.unfoldableCard3.note</Note>
+          </UnfoldableCard>
+          <NavigateButtons
+            backUrl="/app/services/tak/usage/android1"
+            forwardUrl="/app/services/tak/usage/android3"
+          ></NavigateButtons>
+        </div>
+      </CardsContainer>
+    </Layout>
+  </div>
+</View>

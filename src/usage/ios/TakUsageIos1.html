@@ -1,0 +1,103 @@
+<View
+  name="TakUsageIos1"
+  path="usage/ios1"
+>
+  <div class="pb-20">
+    <Layout
+      showNavbar="true"
+      showFooter="false"
+      navbarTitle="TakUsageIos1.navbarTitle"
+      backUrl="/app/services/tak/usage"
+    >
+      <StatusBar
+        title="TakUsageIos1.statusBarTitle"
+        progressMax="1"
+        progressNow="1"
+      ></StatusBar>
+      <CardsContainer>
+        <div class="flex flex-col items-center w-full gap-2 justify-center p-5">
+          <ServiceInfoCard
+            title="iTAK"
+            image="../../../../../../assets/icons/iTAK.png"
+            details="TakUsageIos1.serviceInfoCard.details"
+          ></ServiceInfoCard>
+          <UnfoldableCard
+            title="TakUsageIos1.unfoldableCard1.title"
+            class="bg-backgroundLight"
+          >
+            <Description>TakUsageIos1.unfoldableCard1.step1</Description>
+            <Description>TakUsageIos1.unfoldableCard1.step2</Description>
+            <Image
+              class="m-3 w-[400px]"
+              src="../../../../../../assets/takguides/itak/itakusage1.png"
+            ></Image>
+          </UnfoldableCard>
+          <UnfoldableCard
+            title="TakUsageIos1.unfoldableCard2.title"
+            class="bg-backgroundLight"
+          >
+            <Description>TakUsageIos1.unfoldableCard2.step1</Description>
+
+            <Description>TakUsageIos1.unfoldableCard2.step2</Description>
+            <Image
+              class="m-3 w-[300px]"
+              src="../../../../../../assets/takguides/itak/itakusage2.png"
+            ></Image>
+
+            <Description>TakUsageIos1.unfoldableCard2.step3</Description>
+            <Image
+              class="m-3 w-[300px]"
+              src="../../../../../../assets/takguides/itak/itakusage31.png"
+            ></Image>
+
+            <Note>TakUsageIos1.unfoldableCard2.note</Note>
+
+          </UnfoldableCard>
+          <UnfoldableCard
+            title="TakUsageIos1.unfoldableCard3.title"
+            class="bg-backgroundLight"
+          >
+
+            <Description>TakUsageIos1.unfoldableCard3.step1</Description>
+
+            <Description>TakUsageIos1.unfoldableCard3.step2</Description>
+            <Image
+              class="m-3 w-[400px]"
+              src="../../../../../../assets/takguides/itak/itakusage4.png"
+            ></Image>
+
+            <Description>TakUsageIos1.unfoldableCard3.step3</Description>
+            <Image
+              class="m-3 w-[400px]"
+              src="../../../../../../assets/takguides/itak/itakusage5.png"
+            ></Image>
+
+            <Description>TakUsageIos1.unfoldableCard3.step4</Description>
+            <Image
+              class="m-3 w-[400px]"
+              src="../../../../../../assets/takguides/itak/itakusage6.png"
+            ></Image>
+            <Note>TakUsageIos1.unfoldableCard3.note</Note>
+
+          </UnfoldableCard>
+          <UnfoldableCard
+            title="TakUsageIos1.unfoldableCard4.title"
+            class="bg-backgroundLight"
+          >
+            <Description>TakUsageIos1.unfoldableCard4.step1</Description>
+            <Description>TakUsageIos1.unfoldableCard4.step2</Description>
+            <Image
+              class="m-3 w-[400px]"
+              src="../../../../../../assets/takguides/itak/itakusage4.png"
+            ></Image>
+          </UnfoldableCard>
+        </div>
+      </CardsContainer>
+      <NavigateButtons
+        backUrl="/app/services/tak/usage"
+        forwardUrl="/app/services/tak/usage"
+        alterForward="TakUsageAndroid3.alterForward"
+      ></NavigateButtons>
+    </Layout>
+  </div>
+</View>

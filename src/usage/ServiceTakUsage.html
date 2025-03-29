@@ -1,0 +1,46 @@
+<View
+  name="ServiceTakUsage"
+  path="usage"
+>
+  <div class="pb-10">
+    <Layout
+      showNavbar="True"
+      showFooter="True"
+      heroImage="../../../../../assets/heroimages/kiikarit.jpeg"
+      navbarTitle="serviceTakUsageView.navbarTitle"
+      backUrl="/"
+    >
+      <div class="flex flex-col flex-shrink-0">
+        <CardsContainer>
+          <ServiceInfoCard
+            title="serviceTakUsageView.serviceInfoCardTitle"
+            details="serviceTakUsageView.serviceInfoCardDetails"
+          ></ServiceInfoCard>
+        </CardsContainer>
+        <ServiceUsageCard>
+          <ServiceTakUsageCard></ServiceTakUsageCard>
+          <ServiceTakUsageByFighterCard></ServiceTakUsageByFighterCard>
+          <ServiceTakUsageAtCPCard></ServiceTakUsageAtCPCard>
+          <ServiceTakUsageFlowCard></ServiceTakUsageFlowCard>
+        </ServiceUsageCard>
+        <CardsContainer>
+          <Card
+            title="serviceTakUsageView.androidTitle"
+            image="../../../../../assets/icons/android.svg"
+            url="/app/services/tak/usage/android1"
+          ></Card>
+          <Card
+            title="serviceTakUsageView.iosTitle"
+            image="../../../../../assets/icons/apple.svg"
+            url="/app/services/tak/usage/ios1"
+          ></Card>
+          <Card
+            title="serviceTakUsageView.windowsTitle"
+            image="../../../../../assets/icons/windows.svg"
+            url="/app/services/tak/usage/win1"
+          ></Card>
+        </CardsContainer>
+      </div>
+    </Layout>
+  </div>
+</View>
