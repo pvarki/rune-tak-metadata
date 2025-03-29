@@ -32,7 +32,7 @@ jobs:
           mkdir -p output
           
           # Build src files
-          rune src json > output/tak.json
+          rune src json > output/rune.json
           
           # List the contents of output directory to verify
           ls -la output/
@@ -52,4 +52,4 @@ jobs:
           draft: false
           prerelease: false
           files: |
-            output/tak.json 
+            output/rune.json
