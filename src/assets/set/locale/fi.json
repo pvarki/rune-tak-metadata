@@ -1,0 +1,13 @@
+{
+  "COMMON-VERBS": "COMMON-VERBS",
+  "footer.feedbackFormText": "Anna palautetta sovelluksen kehittäjille käyttämällä tätä lomaketta!",
+  "footer.feedbackForm": "https://docs.google.com/forms/d/e/1FAIpQLSehHTASMmqszEMOVOwMvjUNOj-lcEGskk58sUjsmurJDlvFZw/viewform",
+
+  "FOOTERS": "FOOTERS",
+  "footer.allRightsReservedSecond": "RM-UI, PVATK-logo & taustakuvat:",
+  "footer.allRightsReservedSecondNotice": "PVATK. Toistaiseksi: kaikki oikeudet pidätetään.",
+  "footer.allRightsReservedMain": "PVATK. Kaikki oikeudet pidätetään.",
+
+  "PRIVACYPOLICYMODAL": "PRIVACYPOLICYMODAL",
+  "privacyPolicy.description": "Keräämme tietoja käyttäjistä, jotta voimme tarjota parempaa palvelua ja varmistaa palvelun turvallisuuden valvonnalla. <br /><br />Emme luovuta tietoja kolmansille osapuolille mihinkään kaupallisiin tarkoituksiin. Emme käytä kolmannen osapuolen tarjoamia jäljittäviä evästepalveluita tiedon keräämiseen. <br /><br /><strong>Tietoja, mitä keräämme:</strong><li>IP-osoitteesi.</li><li>Maa, josta liikennöit.</li><li>User agent, eli käyttämäsi selain ja käyttöjärjestelmä.</li><li>Palveluun syöttämäsi tiedot.</li><br /><strong>Mitä tietoja emme kerää:</strong><li>Kolmannen osapuolen jäljittäviin eväisteisiin (3rd party tracking cookies) perustuvaa tietoa. </li><li>Mitään henkilötietoja, mukaanlukien sähköpostiosoitteita, puhelinnumeroja.</li><br />Tietoja käsittelevät tämän palvelun kehittäjät.<br />Kerättyä tietoa säilytetään Euroopan Unionin alueella. Käyttämällä palvelua hyväksyt tietosuojaselosteen."
+}

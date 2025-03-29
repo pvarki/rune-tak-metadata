@@ -1,0 +1,13 @@
+{
+  "COMMON-VERBS": "COMMON-VERBS",
+  "footer.feedbackFormText": "Feedback? Please let the developers know using this form!",
+  "footer.feedbackForm": "https://docs.google.com/forms/d/1BXMxeTt5TtmuhX9XsiZTH2yl-Fko-NVPUumvu40TUAM/viewform",
+
+  "FOOTERS": "FOOTERS",
+  "footer.allRightsReservedSecond": "RM-UI, The PVATK Logo & Background Images:",
+  "footer.allRightsReservedSecondNotice": "PVATK. Right now, all rights reserved.",
+  "footer.allRightsReservedMain": "PVATK. All rights reserved.",
+
+  "PRIVACYPOLICYMODAL": "PRIVACYPOLICYMODAL",
+  "privacyPolicy.description": "We collect information about users to provide better service and ensure the security of the service through monitoring. <br /><br />We do not share information with third parties for any commercial purposes. We do not use third-party tracking cookie services for information collection. <br /><br /><strong>Information we collect:</strong><li>Your IP address.</li><li>The country you are accessing from.</li><li>User agent, i.e., your browser and operating system.</li><li>Information you enter into the service.</li><br /><strong>What information we do not collect:</strong><li>Information based on third-party tracking cookies.</li><li>Any personal information, including email addresses and phone numbers.</li><br />The collected information is processed by the developer. <br /> The information is stored in the EU. <br /><br />By using the service, you agree to the collection of the information described above."
+}
